@@ -1,6 +1,6 @@
 {
-  "id": "tipa-ipa-support",
-  "name": "TIPA IPA Support",
+  "id": "tipa-support",
+  "name": "TIPA Support",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Adds support for TIPA phonetic notation in Obsidian",
