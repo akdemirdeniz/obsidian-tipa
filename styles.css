@@ -1,8 +1,87 @@
-/*
+/* Inline TIPA text - minimal styling */
+.tipa-inline {
+  /* No background, no border, just the phonetic font if enabled */
+  display: inline;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.tipa-phonetic-font {
+  font-family: "Arial Unicode MS", "Lucida Sans Unicode", "DejaVu Sans", "Charis SIL", "Doulos SIL", sans-serif;
+}
 
-If your plugin does not need CSS, delete this file.
+/* Only add background/border if inline styling is enabled */
+.tipa-inline.tipa-styled {
+  background-color: var(--background-secondary);
+  padding: 1px 3px;
+  border-radius: 2px;
+  border: 1px solid var(--background-modifier-border);
+}
 
-*/
+/* Block TIPA (for code blocks) */
+.tipa-block {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: var(--background-primary-alt);
+  border-left: 3px solid var(--interactive-accent);
+  font-family: var(--font-monospace);
+  white-space: pre-wrap;
+}
+
+.tipa-block.tipa-phonetic-font {
+  font-family: "Arial Unicode MS", "Lucida Sans Unicode", "DejaVu Sans", "Charis SIL", "Doulos SIL", var(--font-monospace);
+}
+
+/* Error styling */
+.tipa-error {
+  color: var(--text-error);
+  background-color: var(--background-modifier-error);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--text-error);
+  font-family: var(--font-monospace);
+}
+
+/* Shortcut table styling */
+.tipa-shortcut-table {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: var(--background-primary-alt);
+  border-radius: 5px;
+}
+
+.tipa-shortcut-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.tipa-shortcut-item {
+  font-family: var(--font-monospace);
+  background-color: var(--background-secondary);
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* Code example styling */
+.tipa-code-example {
+  background-color: var(--background-primary-alt);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  font-family: var(--font-monospace);
+  white-space: pre-wrap;
+}
+
+/* Tone letter styling */
+.tone-letter {
+  font-size: 0.9em;
+  vertical-align: super;
+}
+
+/* Ensure proper rendering of combining characters */
+.tipa-inline, .tipa-block {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+}

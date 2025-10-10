@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+  "id": "tipa-ipa-support",
+  "name": "TIPA IPA Support",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Adds support for TIPA phonetic notation in Obsidian",
+  "author": "Deniz Akdemir",
+  "authorUrl": "https://akdemirdeniz.github.io",
+  "isDesktopOnly": false
 }
