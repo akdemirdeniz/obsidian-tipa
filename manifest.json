@@ -3,7 +3,7 @@
   "name": "TIPA Support",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
-  "description": "Adds support for TIPA phonetic notation in Obsidian.",
+  "description": "Adds support for TIPA phonetic notation.",
   "author": "Deniz Akdemir",
   "authorUrl": "https://akdemirdeniz.github.io",
   "isDesktopOnly": false
