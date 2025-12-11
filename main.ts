@@ -103,7 +103,8 @@ export default class TIPAPlugin extends Plugin {
   async onload() {
     await this.loadSettings();
     
-    console.log('Loading TIPA IPA Support plugin (Based on TIPA Manual 1.3)');
+    // Logging removed per review guidelines
+    // console.log('Loading TIPA IPA Support plugin (Based on TIPA Manual 1.3)');
 
     // Register markdown post processor for Reading view
     this.registerMarkdownPostProcessor((element: HTMLElement, context: MarkdownPostProcessorContext) => {
@@ -415,7 +416,8 @@ export default class TIPAPlugin extends Plugin {
   }
 
   onunload() {
-    console.log('Unloading TIPA IPA Support plugin');
+    // Logging removed per review guidelines
+    // console.log('Unloading TIPA IPA Support plugin');
   }
 }
 
@@ -432,7 +434,8 @@ class TIPASettingTab extends PluginSettingTab {
 
     containerEl.empty();
     
-    containerEl.createEl('h2', { text: 'TIPA IPA Support Settings' });
+    // Top-level heading removed per review guidelines
+    
     containerEl.createEl('p', { 
       text: 'Based on TIPA Manual Version 1.3 by Rei Fukui' 
     });
@@ -478,7 +481,7 @@ class TIPASettingTab extends PluginSettingTab {
         }));
 
     // Usage examples from the manual
-    containerEl.createEl('h3', { text: 'Usage Examples' });
+    new Setting(containerEl).setName('Usage examples').setHeading();
     
     const examples = [
       '\\tipa{["s@mTIN]} → [ˈsʌmθɪŋ]',
@@ -497,7 +500,7 @@ class TIPASettingTab extends PluginSettingTab {
       list.createEl('li', { text: example });
     });
 
-    containerEl.createEl('h3', { text: 'Shortcut Characters' });
+    new Setting(containerEl).setName('Shortcut characters').setHeading();
     const shortcutTable = containerEl.createEl('div');
     shortcutTable.addClass('tipa-shortcut-table');
     
@@ -520,7 +523,7 @@ class TIPASettingTab extends PluginSettingTab {
     });
 
     // Code block example
-    containerEl.createEl('h3', { text: 'Code Block Usage' });
+    new Setting(containerEl).setName('Code block usage').setHeading();
     const codeExample = containerEl.createEl('pre');
     codeExample.addClass('tipa-code-example');
     codeExample.setText('```tipa\n"h@loU w3:ld\n```\n\nWill render as:\nˈhəloʊ wɛːld');
