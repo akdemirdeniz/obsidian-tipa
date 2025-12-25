@@ -15,6 +15,11 @@ TIPA (TEX IPA) is a system for processing IPA (International Phonetic Alphabet) 
 - Live preview support is non existent for inline syntax (`\textschwa` for example)
 
 ## Installation
+
+### Automatic Installation
+On your Obsidian app, go to Options -> Community Plugins -> Browse and search for 'TIPA Support'. Click on the card and install and then enable.
+
+### Manual Installation
 1. Download the latest release.zip from the GitHub repository
 2. Extract the files to your vault's plugins folder:  
    `YourVault/.obsidian/plugins/tipa-obsidian-plugin/`
