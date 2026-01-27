@@ -1,4 +1,4 @@
-[![Codeberg](https://img.shields.io/badge/mirrored_to-Codeberg-blue?logo=codeberg)](https://codeberg.org/denizakdemir/obsidian-tipa) [![GitHub](https://img.shields.io/badge/mirrored_to-GitHub-black?logo=github)](https://github.com/denizakdemir/obsidian-tipa)
+[![Codeberg](https://img.shields.io/badge/mirrored_to-Codeberg-blue?logo=codeberg)](https://codeberg.org/denizakdemir/obsidian-tipa) [![GitHub](https://img.shields.io/badge/mirrored_to-GitHub-black?logo=github)](https://github.com/akdemirdeniz/obsidian-tipa)
 
 # TIPA IPA Support for Obsidian
 
