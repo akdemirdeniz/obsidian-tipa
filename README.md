@@ -1,8 +1,8 @@
 [![Codeberg](https://img.shields.io/badge/mirrored_on-Codeberg-blue?logo=codeberg)](https://codeberg.org/denizakdemir/obsidian-tipa) [![GitHub](https://img.shields.io/badge/mirrored_on-GitHub-black?logo=github)](https://github.com/akdemirdeniz/obsidian-tipa)
 
-# TIPA IPA Support for Obsidian
+# TIPA Support for Obsidian
 
-TIPA (TEX IPA) is a system for processing IPA (International Phonetic Alphabet) symbols in LATEX. This Obsidian plugin implements TIPA notation to Obsidian.
+TIPA (TeX IPA) is a system for processing IPA (International Phonetic Alphabet) symbols in LaTeX. This Obsidian plugin implements TIPA notation to Obsidian.
 
 ## Features
 
