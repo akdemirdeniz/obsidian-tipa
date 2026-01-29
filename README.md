@@ -45,3 +45,9 @@ Or use the full form: \textipa{["h{@}loU]} for hello.
 Narrow transcription: \nt{o}
 
 Wide transcription: \wt{i}
+```
+
+## Support
+You can support my development of this plugin by buying me a coffee!
+
+<a href="https://www.buymeacoffee.com/akdemirdeniz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40"></a>
